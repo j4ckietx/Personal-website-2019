@@ -103,14 +103,41 @@ h2{
 .time{
   margin-top: 50px;
   font-size: 1.2em;
+  float: left;
+  width: 155px;
+  margin-right: 20px;
+}
+
+.line{
+  display: inline-block;
+  margin-top: 53px;
+  width: 10px;
+}
+
+.exp{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 700px;
+  vertical-align: top;
+  font-size: 1.2em;
+}
+
+.exp li{
+  list-style-type: none;
+  line-height: 2.14em;
+  text-align: left;
+  color: #7C7C7C;
 }
 
 .time li{
   list-style-type: none;
+  line-height: 2.14em;
+  text-align: right;
+  color: #7C7C7C;
 }
 
 footer{
-  position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 50px;
@@ -133,8 +160,9 @@ footer{
 .contact:hover .dropbtn {color: #8BA878;}
 
 .contact{
-  position: absolute;
-  display: inline-block;
+  position: fixed;
+  display: block;
+  bottom: 50px;
 }
 
 .contact-method{
