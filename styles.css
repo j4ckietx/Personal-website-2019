@@ -30,16 +30,28 @@ h1{
 }
 
 h2{
+  font-family: 'Orpheus Pro', serif;
+  font-weight: bold;
+  font-size: 48px;
+  width: 55vw;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.name{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   position: fixed;
-  top: 2%;
+  top: 5%;
   left: 50%;
   font-size: 32px;
   background-color: white;
   z-index: 1;
   padding-left: 30px;
   padding-right: 30px;
+  text-decoration: none;
+  color: #CB664B;
+  font-weight: bold;
 }
 
 h3{
@@ -60,6 +72,16 @@ h3{
   left: 75%;
   font-size: 24px;
   min-width: 450px;
+}
+svg{
+  margin: 0 0 0 15px;
+  position: absolute;
+  top: 50%;
+}
+rect{
+  width: 10px;
+  height: 40px;
+  fill: #CB664B;
 }
 
 footer{
